@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <style>
+        .img11{
+            background-image: url("{% static 'images/html.png' %}");
+            
+        }
+    </style>
+   
+</head>
+<body>
+    <h1 align="center">head1</h1>
+    <h1>head2</h1>
+    <h1>head3</h1>
+    <div class="div1">
+        <img src="{% static 'images/css.png' %}" alt="" width="200px" height="20px" class="img1">
+
+        <input type="text">
+        <button>signOut</button>
+    </div>
+    <div class="img11" >
+        <form action="" style="padding-top: 100px;">
+            <input type="text">
+            <input type="text">
+
+        </form>
+    </div>
+    <div>
+        <form action=""></form>
+    </div>
+    <!-- <div>
+        <ul class="li1">
+            <li>css</li>
+            <li>python</li>
+            <li>HTML</li>
+        </ul>
+    </div> -->
+  
+    <!-- <form action="/test/" method="POST">
+        {% csrf_token %}
+        <input type="text" name="user" id="">
+        <button type="submit">save</button>
+    </form> -->
+    <!-- <a href="/user">get all user</a> -->
+</body>
+</html>
